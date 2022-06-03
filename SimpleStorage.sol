@@ -40,7 +40,7 @@ contract SimpleStorage {
     ///////////////////////////////////////////////////////
     // Functions
 
-    function setDefaultNumber (uint256 _defaultNumber) public {
+    function setDefaultNumber (uint256 _defaultNumber) public virtual {
         defaultNumber = _defaultNumber;
     } 
 
